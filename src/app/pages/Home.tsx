@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 // Components
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -8,7 +7,6 @@ import CompaniesFilters from "../components/CompaniesFilters";
 import Filters from "../components/filters/Filters";
 import Loader from "../components/loader/Loader";
 import TicketCardsList from "../components/ticket-card/TicketCardsList";
-import { ITicketCard } from "../components/ticket-card/TicketCard";
 // Styles
 import "../styles/App.scss";
 // Data
