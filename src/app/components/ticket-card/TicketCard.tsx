@@ -6,7 +6,6 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 // Styles
 import styles from "./TicketCard.module.scss";
-import Stops from "../StopsFilters";
 
 export interface ITicketCard {
   company: string;

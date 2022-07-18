@@ -7,6 +7,7 @@ import CompaniesFilters from "../components/CompaniesFilters";
 import Filters from "../components/filters/Filters";
 import Loader from "../components/loader/Loader";
 import TicketCardsList from "../components/ticket-card/TicketCardsList";
+import Search from "../components/search/Search";
 // Styles
 import "../styles/App.scss";
 // Data
@@ -15,6 +16,9 @@ import ticketCards from "../data/ticketCards.json";
 const Home: React.FC = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
+      <Grid container>
+        <Search />
+      </Grid>
       <Grid container>
         <Grid item xs={4}>
           <Stops />
