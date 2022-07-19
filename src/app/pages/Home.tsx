@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         </Grid>
         <Grid item xs={8}>
           <Filters />
-          <TicketCardsList ticketCards={ticketCards} />
+          <TicketCardsList />
           <Loader />
         </Grid>
       </Grid>
